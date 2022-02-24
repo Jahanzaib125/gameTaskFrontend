@@ -1,0 +1,38 @@
+body {
+  background-color: burlywood;
+}
+.header {
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: xx-large;
+  background-color: brown;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+.info {
+  display: flex;
+}
+.info > span {
+  margin-right: 5rem;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 20rem;
+}
+.link:hover {
+  color: #fff;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+
+/* .gameboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */

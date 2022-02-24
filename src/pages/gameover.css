@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.gameover {
+  font-size: 10rem;
+  font-weight: bolder;
+  text-align: center;
+}

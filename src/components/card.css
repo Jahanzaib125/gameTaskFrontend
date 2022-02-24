@@ -1,0 +1,35 @@
+.card {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 2rem;
+  box-shadow: -3px 3px 3px black;
+  background-color: #fff;
+}
+
+.player {
+  background: url('../assets/knight.png');
+  background-repeat: no-repeat;
+  height: 5rem;
+  width: 5rem;
+  background-size: auto;
+}
+
+.coin {
+  background: url('../assets/collectable.png');
+  background-repeat: no-repeat;
+  height: 5rem;
+  width: 5rem;
+  background-size: auto;
+}
+.enemy {
+  background: url('../assets/danger.png');
+  background-repeat: no-repeat;
+  height: 5rem;
+  width: 5rem;
+  background-size: auto;
+}
